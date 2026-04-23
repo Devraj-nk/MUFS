@@ -40,18 +40,6 @@ sudo apt update
 sudo apt install -y build-essential libfuse3-dev fuse3 pkg-config python3-tk
 ```
 
-### Arch Linux
-
-```bash
-sudo pacman -S fuse3 python tk base-devel
-```
-
-### Fedora / RHEL
-
-```bash
-sudo dnf install fuse3 fuse3-devel python3-tkinter gcc
-```
-
 > **FUSE user mounts** — Ensure your user is in the `fuse` group or that `/etc/fuse.conf` contains `user_allow_other`. Usually not needed for basic mounts.
 
 ---
